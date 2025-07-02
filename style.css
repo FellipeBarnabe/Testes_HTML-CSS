@@ -1,35 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-.titulo-blog{
+.titulo-blog {
     margin: 20px;
     padding: 20px;
 }
 
 
-       p {
-       margin: 10px;
-       border: 2px solid black;
-       padding: 5px;
-   }
+p {
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
 
-body{
-    
+body {
+
     background-color: grey;
-    
+
 }
 
-.apresentacao{
+.apresentacao {
     font-size: 20px;
-    font-family: 'robot', sans-serif ;
+    font-family: 'robot', sans-serif;
 }
 
-.box-1{
+.box-1 {
     box-sizing: content-box;
     background-color: red;
     width: 700px;
@@ -39,7 +39,7 @@ body{
     border: 30px solid black;
 }
 
-.box-2{
+.box-2 {
     box-sizing: border-box;
     background-color: blue;
     width: 700px;
@@ -49,19 +49,36 @@ body{
     border: 30px solid black;
 }
 
-.apresentacao{
+.apresentacao {
     display: flex;
     align-items: center;
+
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;    
-  margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10%;
 }
-.container > div {
-  background-color: #ddd;
-  padding: 20px;
-  border: 1px solid #ccc;
+
+.container>div {
+    background-color: #ddd;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+}
+
+a[target="_blank"] {
+
+    color: red;
+}
+
+h2 + p {
+     color: green;
+}
+
+.titulo__2 > p{
+
+    color: blue;
 }
